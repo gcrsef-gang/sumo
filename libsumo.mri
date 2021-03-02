@@ -1,0 +1,32 @@
+create libsumo.a
+addlib build/src/microsim/libmicrosim.a
+addlib build/src/traci-server/libtraciserver.a
+addlib build/src/libsumo/liblibsumostatic.a
+addlib build/src/traci-server/libtraciserver.a
+addlib build/src/netload/libnetload.a
+addlib build/src/microsim/cfmodels/libmicrosim_cfmodels.a
+addlib build/src/microsim/engine/libmicrosim_engine.a
+addlib build/src/microsim/lcmodels/libmicrosim_lcmodels.a
+addlib build/src/microsim/devices/libmicrosim_devices.a
+addlib build/src/microsim/trigger/libmicrosim_trigger.a
+addlib build/src/microsim/output/libmicrosim_output.a
+addlib build/src/microsim/transportables/libmicrosim_transportables.a
+addlib build/src/microsim/actions/libmicrosim_actions.a
+addlib build/src/microsim/traffic_lights/libmicrosim_traffic_lights.a
+addlib build/src/microsim/libmicrosim.a
+addlib build/src/mesosim/libmesosim.a
+addlib build/src/utils/emissions/libutils_emissions.a
+addlib build/src/foreign/PHEMlight/cpp/libforeign_phemlight.a
+addlib build/src/utils/vehicle/libutils_vehicle.a
+addlib build/src/utils/distribution/libutils_distribution.a
+addlib build/src/utils/shapes/libutils_shapes.a
+addlib build/src/utils/options/libutils_options.a
+addlib build/src/utils/xml/libutils_xml.a
+addlib build/src/utils/geom/libutils_geom.a
+addlib build/src/utils/common/libutils_common.a
+addlib build/src/utils/importio/libutils_importio.a
+addlib build/src/utils/iodevices/libutils_iodevices.a
+addlib build/src/utils/traction_wire/libutils_traction_wire.a
+addlib build/src/foreign/tcpip/libforeign_tcpip.a
+save
+end
